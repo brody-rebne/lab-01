@@ -1,1 +1,75 @@
 /* module styles */
+
+#header {
+  background-color: #0000ff;
+}
+
+#primary {
+  background-color: #5600ff;
+}
+
+#c {
+  background-color: #7b00ff;
+}
+
+#d {
+  background-color: #9700ff
+}
+
+#e {
+  background-color: #b000ff;
+}
+
+#f {
+  background-color: #c600ff;
+}
+
+#g {
+  background-color: #da00ff;
+}
+
+#h {
+  background-color: #ed00ff;
+}
+
+#footer {
+  background-color: #ff00ff;
+}
+
+@media all and (min-width: 768px) {
+  #header {
+    background-color: #ff0000;
+  }
+  
+  #primary {
+    background-color: #ff9000;
+  }
+  
+  #c {
+    background-color: #ffb000;
+  }
+  
+  #d {
+    background-color: #fff000;
+  }
+  
+  #e {
+    background-color: #0090ff;
+  }
+  
+  #f {
+    background-color: #00b0ff;
+  }
+  
+  #g {
+    background-color: #00d0ff;
+  }
+  
+  #h {
+    background-color: #00f0ff;
+  }
+  
+  #footer {
+    background-color: #f000ff;
+  }
+}

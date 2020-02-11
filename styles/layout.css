@@ -14,12 +14,6 @@ section {
   width: 100%;
 }
 
-#footer {
-  height: 80px;
-  line-height: 80px;
-  width: 100%;
-}
-
 #primary {
   height: 150px;
   line-height: 150px;
@@ -28,6 +22,12 @@ section {
 .large {
   height: 125px;
   line-height: 125px;
+}
+
+#footer {
+  height: 80px;
+  line-height: 80px;
+  width: 100%;
 }
 
 .small {
@@ -41,13 +41,7 @@ section {
     height: 75px;
     line-height: 75px;
   }
-  
-  #footer {
-    width: calc(100% - 200px);
-    height: 150px;
-    line-height: 80px;
-  }
-  
+
   #primary {
     float: left;
     width: 200px;
@@ -56,14 +50,23 @@ section {
   }
   
   .large {
-    width: calc(50% - 100px);
+    float: left;
+    width: calc(50% - 200px / 2);
     height: 200px;
     line-height: 200px;
   }
   
   .small {
-    width: 50%;
+    float: left;
+    width: calc(25% - 200px / 4);
     height: 250px;
     line-height: 250px;
+  }
+
+  #footer {
+    float: left;
+    width: calc(100% - 201px);
+    height: 150px;
+    line-height: 150px;
   }
 }
